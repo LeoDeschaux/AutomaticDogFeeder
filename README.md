@@ -3,6 +3,8 @@
 The goal of the project was to convert a manual dispenser into an automatic one.
 I was in charge of building a website that would display information located on an Arduino Card.
 
+download pdf : <a id="raw-url" href="https://discord.com/channels/689815240883699714/904282363574517780/904367049311133706">Presentation (french)</a>
+
 ## Final Product 
 ![Dispenser](https://cdn.discordapp.com/attachments/904282363574517780/904365978564046859/Distributeur_de_croquettes.jpg)
 
