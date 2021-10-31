@@ -1,12 +1,357 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>TITLE</title>
-</head>
-<body>
+  <html lang="fr">
+  <meta charset="utf-8">
+  <title> Distributeur de croquettes</title>
 
-<p>DU TEXT</p>
+  <!-- css 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">-->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="WebSite_Local/style.css" type="text/css" />
+
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  
+  <!-- <script src="script.js"></script> -->
+
+ <!-- *JavaScript* 
+-->
+
+  <script>
+
+  // Ajax Code
+
+  </script>
+
+</head>
+<body onload="processData()">
+
+<!--- BANNER -->
+<div class="container-fluid padding banner">
+    <h1 class="title" style="text-align: center;"><span class="align-middle">Distributeur De Croquettes</span></h1>
+</div>
+
+<div style="background-color:  white;">
+
+<!-- Header -->
+<div class="container-fluid padding">
+    <h1 id="mesChiens2" class="mesChiens align-middle" style="text-align: center;">Mes Chiens</h1>
+</div>
+
+<hr class="light">
+
+<!--- Cards -->
+<div class="container-fluid padding ">
+<div class="row padding ">
+	
+	<!-- ************************** DOG 1 ****************************** -->
+  <div class="col-xs-12 col-lg-6 mt-bot">
+    <div class="card">
+
+      <img id="dog1Border" class="card-img-top img" src="https://i.ibb.co/yXS5Sq9/dog1.png">
+
+      <div class="card-body dogCard">
+      
+        <div class="container-fluid text-center" style="">
+
+        <!-- dog state -->
+        <div class="text-center infoPlus" style="">
+          <h1 class="answer" id="dogState_0_01">xxx</h1>
+
+          <hr class="light">
+
+          <p id="dogState_0_02">xxxxx</p>
+          <p>à : <span id="dogState_0_03" class="hourText">xxxxx</span></p>
+          <p>heure du prochain repas : <span id="dogState_0_04" class="hourText">xxxxx</span></p>
+          <p>temps restant : <span id="dogState_0_05" class="hourText">xxxxx</span></p>
+        </div>
+
+        <!-- fill whith java-->
+        <div class="container-fluid" style="text-align: right">
+        	<a class="btn btn-primary btn raised" data-toggle="collapse" href="#collapse1" role="button"><span>Voir le Profil</span></a>
+        	<br>
+        	<br>
+		    </div>
+
+    		<div class="collapse" id="collapse1">
+  		  	<div class="card card-body diplay-3" style="background-color: #2b2b2b; border: 1px solid #d5d5d5;">
+  				<div class="infoPlus" style="background-color: #2b2b2b">
+  			    <p class="card-title">
+  			    <span id="template_1_1" class="shell">Chien n°1</span>
+  			    </p>
+  			    <p>ID: 
+  			      <span id="template_1_2" class="hourText">xxxxx</span>
+  			    </p>
+  			    <p>Age:
+  			    <span id="template_1_3" class="hourText">xxxxx</span>
+  			    </p>
+  			    <p>Poids:
+  			    <span id="template_1_4" class="hourText">xxxxx</span>
+  			    </p>
+  			    <p>Quantité De Croquettes:
+  			    <span id="template_1_5" class="hourText">xxxxx</span>
+  			    </p>
+  		  		</div>
+  			   </div>
+	      </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ************************** DOG 2 ****************************** -->
+  <div class="col-xs-12 col-lg-6 mt-bot">
+    <div class="card">
+
+      <img id="dog2Border" class="card-img-top img" src="https://i.ibb.co/dByFWqr/dog2.png">
+
+
+      <div class="card-body dogCard">
+      
+        <div class="container-fluid text-center" style="">
+
+        <!-- dog state -->
+        <div class="text-center infoPlus" style="">
+          <h1 class="answer" id="dogState_1_01">xxx</h1>
+
+          <hr class="light">
+
+          <p id="dogState_1_02">xxxxx</p>
+          <p>à : <span id="dogState_1_03" class="hourText">xxxxx</span></p>
+          <p>heure du prochain repas : <span id="dogState_1_04" class="hourText">xxxxx</span></p>
+          <p>temps restant : <span id="dogState_1_05" class="hourText">xxxxxx</span></p>
+
+        </div>
+
+        <!-- fill whith java-->
+        <div class="container-fluid" style="text-align: right">
+          <a class="btn btn-primary btn raised" data-toggle="collapse" href="#collapse2" role="button"><span>Voir le Profil</span></a>
+          <br>
+          <br>
+        </div>
+
+        <div class="collapse" id="collapse2">
+          <div class="card card-body diplay-3" style="background-color: #2b2b2b; border: 1px solid #d5d5d5;">
+          <div class="infoPlus" style="background-color: #2b2b2b">
+            <p class="card-title">
+            <span id="template_0_1" class="shell">Chien n°2</span>
+            </p>
+            <p>ID: 
+              <span id="template_0_2" class="hourText">xxxxx</span>
+            </p>
+            <p>Age:
+            <span id="template_0_3" class="hourText">xxxxx</span>
+            </p>
+            <p>Poids:
+            <span id="template_0_4" class="hourText">xxxxx</span>
+            </p>
+            <p>Quantité De Croquettes:
+            <span id="template_0_5" class="hourText">xxxxx</span>
+            </p>
+            </div>
+            </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div> 
+
+<hr class="my-4 light">
+
+<!--- little footer -->
+<div class="prefooter">
+</div>
+
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+  <div class="container">
+      
+      <div class="col-md-12 text-center footer">
+
+        <h5 class="text-uppercase font-weight-bold text-center footerH align-middle">à bientôt !</h5>
+
+        <p>Pour plus de renseignements, contactez nous à l'adresse suivante : </p>
+
+        <p class="font-weight-bold">croquettes@gmail.com</p>
+
+        <br>
+
+        <p>© 2020 Copyright<p>
+      </div>
+
+  </div>
+
+</footer>
+
+<xml Id = msg>
+<data>
+  <dog>
+    <name>Albert</name>
+    <id>12345</id>
+    <age>8ans</age>
+    <poids>6kg</poids>
+    <ration>120g</ration>
+
+    <hasAten>1</hasAten>
+    <heureRepas>14h30</heureRepas>
+    <heureProchainRepas>19h00</heureProchainRepas>
+  </dog>
+  <dog>
+    <name>Rex</name>
+    <id>54321</id>
+    <age>5ans</age>
+    <poids>4kg</poids>
+    <ration>85g</ration>
+
+    <hasAten>0</hasAten>
+    <heureRepas>15h30</heureRepas>
+    <heureProchainRepas>20h00</heureProchainRepas>
+  </dog>
+</data>
+</xml>
+
+<!-- SCRIPT --> <!-- SCRIPT --> <!-- SCRIPT --> <!-- SCRIPT --> <!-- SCRIPT -->
+<script>
+var text, parser, xmlDoc;
+text = "<data><dog><name>Albert</name><id>12345</id><age>8ans</age><poids>6kg</poids><ration>120g</ration><hasEaten>1</hasEaten><heureRepas>14h30</heureRepas><heureProchainRepas>19h00</heureProchainRepas></dog><dog><name>Rex</name><id>54321</id><age>5ans</age><poids>4kg</poids><ration>85g</ration><hasEaten>0</hasEaten><heureRepas>15h30</heureRepas><heureProchainRepas>20h00</heureProchainRepas></dog></data>";
+parser = new DOMParser();
+var myXML = parser.parseFromString(text,"text/xml");
+
+var horaireDog1 = "xxxxx";
+var horaireDog2 = "xxxxx";
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+function processData()
+{
+  console.log(myXML);
+
+  horaireDog1 = myXML.getElementsByTagName('heureProchainRepas')[0].childNodes[0].nodeValue;
+  horaireDog2 = myXML.getElementsByTagName('heureProchainRepas')[1].childNodes[0].nodeValue;
+
+  // chien n°1
+  setDogCard(0, "dogState_0_01", "dogState_0_02", "dogState_0_03", "dogState_0_04", "dogState_0_05", "dog1Border", myXML.getElementsByTagName('hasEaten')[0].childNodes[0].nodeValue);
+  setDogProfil(0, "template_1_1", "template_1_2", "template_1_3", "template_1_4", "template_1_5");
+
+  // chien n°2
+  setDogCard(1, "dogState_1_01", "dogState_1_02", "dogState_1_03", "dogState_1_04", "dogState_1_05", "dog2Border", myXML.getElementsByTagName('hasEaten')[1].childNodes[0].nodeValue);
+  setDogProfil(1, "template_0_1", "template_0_2", "template_0_3", "template_0_4", "template_0_5");
+}
+
+function setDogCard(whichDog, ds01, ds02, ds03, ds04, ds05, dogBorder, haveEaten)
+{
+  haveEaten = getRandomInt(2);
+
+  // non il n'a pas mangé  
+  if(haveEaten == 0)
+  {
+    document.getElementById(ds01).innerHTML = "<span style=\"color:red\">NON</span>";
+
+    document.getElementById(ds02).innerHTML = myXML.getElementsByTagName('name')[whichDog].childNodes[0].nodeValue + " n'a pas encore mangé.";
+
+    document.getElementById(ds03).innerHTML = "-";
+    document.getElementById(ds04).innerHTML = myXML.getElementsByTagName('heureProchainRepas')[whichDog].childNodes[0].nodeValue;
+
+    document.getElementById(dogBorder).style.color = "red";
+  }
+  // oui il a mangé
+  if(haveEaten == 1)
+  {
+    document.getElementById(ds01).innerHTML = "<span style=\"color:limegreen\">OUI</span>";
+
+    document.getElementById(ds02).innerHTML = "<span class=\"shell text-wrap\">" + myXML.getElementsByTagName('name')[whichDog].childNodes[0].nodeValue + "</span>" + "‌‌ a bien mangé !";
+
+    document.getElementById(ds03).innerHTML = myXML.getElementsByTagName('heureRepas')[whichDog].childNodes[0].nodeValue;
+    document.getElementById(ds04).innerHTML = myXML.getElementsByTagName('heureProchainRepas')[whichDog].childNodes[0].nodeValue;
+
+    document.getElementById(dogBorder).style.color = "limegreen";
+  }
+}
+
+function setDogProfil(whichDog, name, id, age, poids, ration)
+{
+  document.getElementById(name).innerHTML = myXML.getElementsByTagName('name')[whichDog].childNodes[0].nodeValue;
+  document.getElementById(id).innerHTML = myXML.getElementsByTagName('id')[whichDog].childNodes[0].nodeValue;
+  document.getElementById(age).innerHTML = myXML.getElementsByTagName('age')[whichDog].childNodes[0].nodeValue;
+  document.getElementById(poids).innerHTML = myXML.getElementsByTagName('poids')[whichDog].childNodes[0].nodeValue;
+  document.getElementById(ration).innerHTML = myXML.getElementsByTagName('ration')[whichDog].childNodes[0].nodeValue;
+}
+
+/* TIMER TIMER TIMER TIMER TIMER TIMER TIMER TIMER TIMER TIMER TIMER TIMER */
+$(function(){
+setInterval(oneSecondFunction, 1000);
+});
+
+function oneSecondFunction() {
+  initTimer(horaireDog1, "dogState_0_05");
+  initTimer(horaireDog2, "dogState_1_05");
+}
+
+function initTimer(horaire, where)
+{
+  if(horaire == "xxxxx")
+  {
+    return;
+  }
+
+  var today = new Date();
+
+  var prochainRepasH = (horaire[0] + horaire[1]) * 1;
+  var prochainRepasM = (horaire[3] + horaire[4]) * 1;
+
+  if((prochainRepasH <= today.getHours()))
+  {
+    prochainRepasH = (24) + prochainRepasH;
+  }
+
+  var goalEnSeconds = ((prochainRepasH) * 60 * 60) + (prochainRepasM * 60);
+  var nowEnSeconds = (today.getHours() * 60 * 60) + (today.getMinutes() * 60) + (today.getSeconds());
+
+  var distance = goalEnSeconds - nowEnSeconds;
+
+  // Time calculations for days, hours, minutes and seconds
+  var hours = Math.floor((distance % (60 * 60 * 24)) / (60 * 60));
+  var minutes = Math.floor((distance % (60 * 60)) / (60));
+  var seconds = Math.floor((distance % (60)));
+
+  //lel
+  if(seconds < 10)
+  {
+    seconds = "0" + seconds;
+  }
+  if(minutes < 10)
+  {
+    minutes = "0" + minutes;
+  }
+
+  var tempsRestant = hours + "h" + minutes + "m" + seconds + "s";
+
+  if(((hours * 60) + (minutes)) > ((23*60) + 58))
+  {
+    //tempsRestant = "C'est bon c'est prêt !!";
+  }
+  document.getElementById(where).innerHTML = tempsRestant;
+}
+</script>
 
 </body>
 </html>
