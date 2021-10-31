@@ -7,7 +7,7 @@
 
 **This repository is divided into 2 folders :**  
 <a href="https://github.com/LeoDeschaux/AutomaticDogFeeder/tree/main/PrgmArduino%20%2B%20filesCarteSD" target="_blank" >PrgmArduino + filesCarteSD</a>  
-This version was made to run on an Arduino Card. In here you will find files that are ment to be on the SD card and a program for the Arduino Card itself.  
+This version was made to run on an Arduino Card. In here you will find files that are ment to be on the SD card and a program that run on the Arduino Card itself.  
 
 <a href="https://github.com/LeoDeschaux/AutomaticDogFeeder/tree/main/WebSite_Local" target="_blank" >WebSite_Local</a>  
 A standalone version of the website that don't need to be connected to an actual Arduino Card.  
