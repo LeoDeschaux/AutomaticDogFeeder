@@ -14,7 +14,7 @@ A standalone version of the website that don't need to be connected to an actual
 
 ***
 
-Read a presentation here : <a href="https://drive.google.com/file/d/1KSIzFyPHGZxpHBQKHOi_J3TKDmmBJt40/view?usp=sharing" target="_blank" >Presentation (french).pdf</a>
+You can read a presentation here : <a href="https://drive.google.com/file/d/1KSIzFyPHGZxpHBQKHOi_J3TKDmmBJt40/view?usp=sharing" target="_blank" >Presentation (french).pdf</a>
 
 ## Final Product 
 ![Dispenser](https://cdn.discordapp.com/attachments/904282363574517780/904365978564046859/Distributeur_de_croquettes.jpg)
