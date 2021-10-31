@@ -22,7 +22,7 @@ You can read a presentation here : <a href="https://drive.google.com/file/d/1KSI
 ## Manual Dispenser
 ![Dispenser](https://cdn.discordapp.com/attachments/904282363574517780/904361481330626570/unknown.png)
 
-This is the original dipenser we were given.
+This is the original dipenser we were given.  
 I recreated it in Blender 3D to help us think about the final product design. 
 
 ## Material Used
