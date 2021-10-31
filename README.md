@@ -1,7 +1,7 @@
 # AutomaticDogFeeder - High School graduation project - 2020
 
-The goal of the project was to convert a manual dispenser into an automatic one.\n
-I was in charge of building a website that would display information located on an Arduino Card.
+The goal of the project was to convert a manual dispenser into an automatic one.  
+I was in charge of building a website that would display information located on an Arduino Card.  
 
 Read presentation here : <a href="https://drive.google.com/file/d/1KSIzFyPHGZxpHBQKHOi_J3TKDmmBJt40/view?usp=sharing" target="_blank" >Presentation (french).pdf</a>
 
