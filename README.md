@@ -3,7 +3,7 @@
 **The goal of this project was to convert a manual dispenser into an automatic one.**  
 **I was in charge of building a website that would display data located on an Arduino Card.**  
 
-***
+-  
 
 **This project is divided into 2 folders :**  
 <a href="https://github.com/LeoDeschaux/AutomaticDogFeeder/tree/main/PrgmArduino%20%2B%20filesCarteSD" target="_blank" >PrgmArduino + filesCarteSD</a>  
@@ -12,7 +12,7 @@ This version was made to run on an Arduino Card. In here you will find files tha
 <a href="https://github.com/LeoDeschaux/AutomaticDogFeeder/tree/main/WebSite_Local" target="_blank" >WebSite_Local</a>  
 A standalone version of the website that don't need to be connected to an actual Arduino Card.  
 
-***
+-  
 
 You can read a presentation here : <a href="https://drive.google.com/file/d/1KSIzFyPHGZxpHBQKHOi_J3TKDmmBJt40/view?usp=sharing" target="_blank" >Presentation (french).pdf</a>
 
